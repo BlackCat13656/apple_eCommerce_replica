@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Comments Styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+    font-family: "Work Sans", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --primary-color: #6edae6;
+    --white-color: #fff;
+    --black-color:#000;
+}
+
+/* Section  1 */
+.section-1 {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* End of Section  1 */
+
+/* Comments Styles*/

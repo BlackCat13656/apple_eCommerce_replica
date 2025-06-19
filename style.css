@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Comments Styles*/
+/* Common Styles*/
 
 *{
     margin: 0;
@@ -30,7 +30,29 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 16% 100%, 0 100%);
 }
-/* End of Section  1 */
 
-/* Comments Styles*/
+/* Logo */
+.logo {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    }
+
+.logo i {
+    font-size: 10rem;
+    color: rgba(0,0,0, 0.8);
+}
+/* End of Logo */
+
+/* Navbar */
+.navbar {
+    position: absolute;
+    top: 3rem;
+    right: 10%;
+}
+
+/* End of Navbar */
+/* End of Section  1 */
+/* End of Common Styles*/

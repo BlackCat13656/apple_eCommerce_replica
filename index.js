@@ -31,7 +31,7 @@ const slideshow = () => {
       divs[0].classList.add("change");
       a = 1;
     }
-  }, 1000);
+  }, 20000);
 };
 
 slideshow();
